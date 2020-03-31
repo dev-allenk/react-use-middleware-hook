@@ -1,0 +1,31 @@
+{
+  "name": "react-use-middleware-hook",
+  "version": "1.0.0",
+  "description": "An enhanced react useReducer hook for handling asynchronous logics.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-allenk/react-use-middleware-hook.git"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "useMiddleware"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "author": {
+    "name": "allenk",
+    "email": "dev.allenk@gmail.com",
+    "url": "https://github.com/dev-allenk"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-allenk/react-use-middleware-hook/issues"
+  },
+  "homepage": "https://github.com/dev-allenk/react-use-middleware-hook/"
+}
