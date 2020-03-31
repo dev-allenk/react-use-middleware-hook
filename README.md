@@ -22,7 +22,7 @@ $ yarn add react-use-middleware-hook
 #### Syntax
 
 ```jsx
-const [state, dispatch] = useMiddleware(reducer, initialState[, middleware]);
+const [state, dispatch] = useMiddleware(reducer, initialState, middleware);
 ```
 
 - reducer
@@ -80,7 +80,8 @@ export const fetchError = err => ({ type: "fetchError", payload: err });
 //middleware.js
 import * as actions from "./actions";
 
-//middleware function accepts a payload which dispatched from an action, and returns a new payload or triggers a different action.
+//middleware function accepts a payload which dispatched from an action,
+//and returns a new payload or triggers a different action.
 const getPost = async postId => {
   try {
     const res = await fetch(
