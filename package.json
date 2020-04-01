@@ -1,6 +1,6 @@
 {
   "name": "react-use-middleware-hook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An enhanced react useReducer hook for handling asynchronous logics.",
   "main": "src/index.js",
   "scripts": {
