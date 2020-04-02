@@ -1,5 +1,7 @@
 # react-use-middleware-hook
 
+[![](https://img.shields.io/npm/v/react-use-middleware-hook)](https://www.npmjs.com/package/react-use-middleware-hook)
+
 An enhanced version of react useReducer hook for handling asynchronous logics with your own middlewares.  
 Middleware is a function that takes an action from dispatch, process some sync/async logics, and passes the action to reducer.  
 Be aware that it is not compatible with redux-middlewares.
@@ -90,7 +92,6 @@ const getPost = async postId => {
     const data = await res.json();
     return data;
   } catch (err) {
-    actions.end();
     return actions.fetchError(err);
   }
 };
