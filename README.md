@@ -37,6 +37,9 @@ const [state, dispatch] = useMiddleware(reducer, initialState, middleware);
   - A function or a collection of functions of type `payload => newPayload`
   - Name of functions must be same as action types. Check below examples for detail.
 
+> When dispatching an action, it MUST contains _type_ property.
+> Also, action may include _payload_ property, if any value needs to be passed to middlewares or a reducer.
+
 #### Example
 
 React useMiddleware hook provides two ways to use it.
